@@ -1,0 +1,25 @@
+.card-container {
+    display: flex;
+    overflow-x: auto;
+}
+.card-container::-webkit-scrollbar{
+    width: 100px;
+    height: 100px;    
+}
+.card {
+    flex: 1 0 250px;
+    margin: 1rem;
+}
+.link-html-url {
+    text-decoration: none;
+}
+.repository-name {
+    color: rgb(52, 112, 215);
+}
+.repository-description {
+    color: rgb(52, 112, 215);
+}
+.repository-avatar {
+    height: 250px;
+    border-radius: 6px;
+}

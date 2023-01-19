@@ -34,9 +34,9 @@ export const Home = () => {
         &nbsp;
         &nbsp;
         &nbsp;
-        <section className='projetos-container' id='projetos' style={{backgroundColor:'#0d214f', height:'75vh', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
+        <section className='projetos-container' id='projetos' style={{backgroundColor:'#0d214f', height:'140vh', display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
             &nbsp;
-            <Typography variant='h2' component='h2' sx={{color: 'white', textAlign:'center', fontWeight:'bold'}}>Projetos</Typography>
+            <Typography variant='h2' component='h2' sx={{color: 'white',textAlign:'center', fontWeight:'bold'}}>Projetos</Typography>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <Container style={{minWidth:400, display:'flex'}}>
                 <ProjectsSection />
@@ -57,4 +57,3 @@ export const Home = () => {
         </>
     );
 }
-
